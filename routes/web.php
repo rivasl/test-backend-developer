@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function (App\MultipleLinio $obj) {
+	for ($number = 1; $number <= 100; $number++) {
+		echo $obj->numberIsmultipleLinio($number)."<br>";
+	}
 });
