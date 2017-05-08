@@ -38,7 +38,7 @@ class MultipleLinioTest extends TestCase
      * Test to check the functionality of the numberIsmultipleLinio's multiple method
      * Linio's numbers *
      */
-    public function testNumberIsmultipleLinioLinios()
+    public function testNumberIsmultipleLinio()
     {
         $this->assertEquals( 'Linio', $this->ml->numberIsmultipleLinio(3)); 
     }    
